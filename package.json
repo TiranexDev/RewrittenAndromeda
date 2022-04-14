@@ -2,15 +2,19 @@
   "name": "rewrittenandromeda",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/cluster.js",
   "scripts": {
-    "start": "npx prettier --write . && tsc && node dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx prettier --write . && tsc && clear && node dist/cluster.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord-hybrid-sharding": "^1.5.2"
+    "@discordjs/rest": "^0.3.0",
+    "@vitalets/google-translate-api": "^8.0.0",
+    "discord-api-types": "^0.31.0",
+    "discord-hybrid-sharding": "^1.5.2",
+    "discord.js": "^13.6.0",
+    "path": "^0.12.7"
   }
 }

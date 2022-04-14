@@ -3,3 +3,4 @@ node_modules
 /.prettierignore
 dist
 /src/config.ts
+/src/commands/userinfo.ts
